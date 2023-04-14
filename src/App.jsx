@@ -10,9 +10,9 @@ function App() {
 
       <section className="results">
         {stats.map((result) => {
-          const { id, category, score, icon, sub } = result;
+          const { id, category, score, icon } = result;
           return (
-            <article key={id} className={sub}>
+            <article key={id} className="result">
               <div className="category-wrapper">
                 <img src={icon} alt={category} />
                 <h3>{category}</h3>

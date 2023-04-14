@@ -9,27 +9,23 @@ export default [
     category: "Reaction",
     score: 80,
     icon: reaction,
-    sub: "result res-reaction",
   },
   {
     id: 2,
     category: "Memory",
     score: 92,
     icon: memory,
-    sub: "result res-memory",
   },
   {
     id: 3,
     category: "Verbal",
     score: 61,
     icon: verbal,
-    sub: "result res-verbal",
   },
   {
     id: 4,
     category: "Visual",
     score: 72,
     icon: visual,
-    sub: "result res-visual",
   },
 ];
