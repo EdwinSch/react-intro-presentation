@@ -10,7 +10,18 @@ function App() {
 
       <section className="results">
         {stats.map((result) => {
-          return <p>hoi</p>;
+          const { id, category, score, icon, sub } = result;
+          return (
+            <article key={id} className={sub}>
+              <div className="category-wrapper">
+                <img src="" alt={category} />
+                <h3>{category}</h3>
+              </div>
+              <p className="score">
+                <span>{score}</span> / 100
+              </p>
+            </article>
+          );
         })}
       </section>
       <Button />
