@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
 import Button from "./components/Button";
-import stats from "../data.js";
+import stats from "./data.js";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           return (
             <article key={id} className={sub}>
               <div className="category-wrapper">
-                <img src="" alt={category} />
+                <img src={icon} alt={category} />
                 <h3>{category}</h3>
               </div>
               <p className="score">
