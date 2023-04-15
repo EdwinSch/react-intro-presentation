@@ -4,6 +4,7 @@ import "./App.css";
 // Import Components
 import Header from "./components/Header";
 import Button from "./components/Button";
+import Result from "./components/Result";
 
 // Import statistics data
 import stats from "./data.js";
@@ -13,23 +14,12 @@ function App() {
   return (
     <main>
       {/* render header component */}
-      <Header />
+      <Header title="Summary" />
 
-      {/* render result components from statistics data */}
+      {/* render result components from data */}
       <section className="results">
         {stats.map((result) => {
-          const { id, icon, category, score } = result;
-          return (
-            <article key={id} className="result">
-              <div className="category-wrapper">
-                <img src={icon} alt={category} />
-                <h3>{category}</h3>
-              </div>
-              <p className="score">
-                <span>{score}</span> / 100
-              </p>
-            </article>
-          );
+          return <Result key={result.id} {...result} />;
         })}
       </section>
 
