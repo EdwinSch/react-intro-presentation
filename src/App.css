@@ -33,6 +33,7 @@ h2 {
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--darkNavy);
+  text-transform: capitalize;
 }
 .btn {
   width: 100%;

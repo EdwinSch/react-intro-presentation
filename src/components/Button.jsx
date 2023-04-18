@@ -1,6 +1,12 @@
 const Button = () => {
+  // On button click: trigger this functionality
+  function buttonFunction() {
+    console.log("do something");
+  }
+
+  // Display the button element in the UI
   return (
-    <button className="btn" type="button">
+    <button onClick={buttonFunction} className="btn" type="button">
       Continue
     </button>
   );

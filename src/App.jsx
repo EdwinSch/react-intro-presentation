@@ -14,7 +14,7 @@ function App() {
   return (
     <main>
       {/* render header component */}
-      <Header title="Summary" />
+      <Header title="summary" />
 
       {/* render result components from data */}
       <section className="results">
