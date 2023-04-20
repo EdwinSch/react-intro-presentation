@@ -4,7 +4,7 @@ const Button = () => {
     console.log("do something");
   }
 
-  // Display the button element in the UI
+  // Display the Button element in the UI
   return (
     <button onClick={buttonFunction} className="btn" type="button">
       Continue

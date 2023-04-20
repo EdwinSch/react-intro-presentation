@@ -1,5 +1,6 @@
 const Result = ({ icon, category, score }) => {
   return (
+    // Display this element in the UI for every available dataset object
     <article className="result">
       <div className="category-wrapper">
         <img src={icon} alt={category} />

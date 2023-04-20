@@ -63,26 +63,21 @@ h2 {
 }
 .result:nth-child(1) {
   background-color: #fff3f3;
-}
-.result:nth-child(1) h3 {
   color: #ff5555;
 }
+
 .result:nth-child(2) {
   background-color: #fff9ef;
-}
-.result:nth-child(2) h3 {
   color: #ffb21e;
 }
+
 .result:nth-child(3) {
   background-color: #e6fff8;
-}
-.result:nth-child(3) h3 {
   color: #00bb8f;
 }
+
 .result:nth-child(4) {
   background-color: #f0f2ff;
-}
-.result:nth-child(4) h3 {
   color: #1125d6;
 }
 
