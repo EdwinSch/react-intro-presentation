@@ -1,10 +1,10 @@
-const Result = ({ icon, category, score }) => {
+const Result = ({ icon, category, score, txtColor, bgColor }) => {
   return (
     // Display this element in the UI for every available dataset object
-    <article className="result">
+    <article className="result" style={{ background: bgColor }}>
       <div className="category-wrapper">
         <img src={icon} alt={category} />
-        <h3>{category}</h3>
+        <h3 style={{ color: txtColor }}>{category}</h3>
       </div>
       <p className="score">
         <span>{score}</span> / 100
